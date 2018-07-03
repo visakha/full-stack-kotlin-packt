@@ -1,6 +1,16 @@
 .gradle
 /build/
 
+# archived zip
+/arch-zip/
+
+
+/backend/build
+
+.idea
+
+
+
 # Ignore Gradle GUI config
 gradle-app.setting
 
