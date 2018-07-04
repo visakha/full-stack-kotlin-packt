@@ -13,7 +13,7 @@ import org.springframework.context.support.beans
  */
 
 @Configuration
-open class HelloWorldConfig(ctx: GenericApplicationContext){
+class HelloWorldConfig(ctx: GenericApplicationContext){
     init {
         println("----------------------------  beans init : start ---------------------------")
         beans {

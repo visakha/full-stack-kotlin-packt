@@ -39,6 +39,7 @@ repositories {
 plugins {
     kotlin("jvm") version embeddedKotlinVersion
     id("io.spring.dependency-management") version "1.0.5.RELEASE"
+    id("org.jetbrains.kotlin.plugin.spring") version embeddedKotlinVersion
 }
 
 apply {
