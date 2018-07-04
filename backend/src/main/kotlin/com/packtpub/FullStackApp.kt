@@ -16,16 +16,9 @@ import org.springframework.context.annotation.ComponentScan
 
 @SpringBootApplication
 @ComponentScan(basePackages = ["com.packtpub.config", "com.packtpub.runner", "com.packtpub.service"])
-open class FullStackAppDev
-//(private val appRunnerOne: AppRunnerOne){
-//    init {
-//        appRunnerOne.run()
-//    }
-//}
+class FullStackAppDev
 
 fun main(args: Array<String>){
-//    val springApp = SpringApplication(FullStackAppDev::class.java)
-//    springApp.run(*args)
     runApplication<FullStackAppDev>(*args)
 }
 
